@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="0"
+                android:contentDescription="@string/todo"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:text="Trik Video"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/hijau2"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="Trik Video Blur" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="226dp" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VideoPlay"
+            android:text="Play"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/hijau2"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="Trik Video Zooming" />
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="match_parent"
+            android:layout_height="226dp" />
+        <Button
+            android:id="@+id/play2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VideoPlay2"
+            android:text="Play"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/hijau2"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="Trik Video Freezing" />
+
+        <VideoView
+            android:id="@+id/videoView3"
+            android:layout_width="match_parent"
+            android:layout_height="226dp" />
+
+        <Button
+            android:id="@+id/play3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VideoPlay3"
+            android:text="Play"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/hijau2"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="Trik Video BULB" />
+
+        <VideoView
+            android:id="@+id/videoView4"
+            android:layout_width="match_parent"
+            android:layout_height="226dp" />
+
+        <Button
+            android:id="@+id/play4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VideoPlay4"
+            android:text="Play"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/hijau2"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="Trik Video Macro" />
+
+        <VideoView
+            android:id="@+id/videoView5"
+            android:layout_width="match_parent"
+            android:layout_height="226dp" />
+
+        <Button
+            android:id="@+id/play5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VideoPlay5"
+            android:text="Play"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/hijau2"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="Trik Video Siluet" />
+
+        <VideoView
+            android:id="@+id/videoView6"
+            android:layout_width="match_parent"
+            android:layout_height="226dp" />
+
+        <Button
+            android:id="@+id/play6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VideoPlay6"
+            android:text="Play"/>
+    </LinearLayout>
+
+</ScrollView>
